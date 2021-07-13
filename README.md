@@ -1,3 +1,3 @@
 # iftekheraziz.github.io
 Personal Website
-https://iftekheraziz.me/
+https://iftekheraziz.github.io
