@@ -1,86 +1,184 @@
+/*==============================================================================
+
+ * Template Name: Optio - CV, Resume, vCard, Portfolio HTML Template
+ * Template URI: 
+ * Author: ixtheme - (https://themeforest.net/user/ixtheme)
+ * Description: CV, Resume, vCard, Portfolio HTML Template
+ * Version: 1.0
+ * Copyright 2019 ixtheme
+
+ ==============================================================================*/
 
 
+/* Large devices (desktops, 991px and down) */
 
-/* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 340px){
-    .header_area .main-menu .navbar,
-    .header_area .main-menu .navbar .navbar-brand,
-    .site-main .subscribe-us-area .subscribe .subscribe-title,
-    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
-    .site-main .services-area,
-    .site-main .subscribe-us-area .subscribe
-    {
-        padding: 2%;
-        margin: 0%;
+@media (max-width: 991px) {
+    .hero-content .intro-name {
+        font-size: 48px;
     }
-
-    .site-main .site-banner .site-title h1{
-        font-size: 41px;
+    .hero-content p span {
+        font-size: 16px;
     }
-
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 15rem    !important;
+    .contact-info {
+        margin-bottom: 40px;
     }
-
-    .site-main > .services-area .services{
-        width: 13rem;
+    .nav-bar {
+        width: 245px;
     }
-
-}
-
-
-/* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 792px){
-    .site-main .about-area .about-title h2 > span{
-        font-size: 31px;
-        letter-spacing: 10px;
+    .main-content {
+        width: calc(100% - 245px);
     }
-
-    .site-main .brand-area .experience-area .years-area{
-        padding-left: 1%;
-        width: 49%;
-    }
-
-    .site-main .brand-area .experience-area .bg-panel{
-        margin-left: 30%;
-        width: 80%;   
-    }
-
-    .site-main .brand-area .experience-area .call-area{
-        padding-left: 3%;
-    }
-
-    .site-main .project-area .button-group button{
-        font: normal 500 18px/40px var(--roboto);
-    }
-
-    .site-main .about-area .about-title p{
-        padding: 0%;
-    }
-
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 20rem;
-        margin: 5%;
+    header.fixed {
+        max-width: calc(100% - 245px);
     }
 }
 
-
-
-/* if the viewport is equal to 1910px or less than that */ 
-@media only screen and (max-width: 1910px){
-    .header_area .main-menu .navbar{
-        padding: 1rem;
+@media (max-width: 800px) and (min-width:768px) {
+    .hero-content .intro-name {
+        font-size: 36px;
     }
+}
 
-    .container{
-        max-width: 90%;
+/* Medium devices (tablets, 768px and down) */
+
+@media (max-width: 767px) {
+    .home-wrapper .hero-img .shape::before {
+        font-size: 70vw;
     }
-
-    .site-main .brand-area,
-    .site-main .services-area .services-title,
-    .site-main .about-area{
-        padding: 3% 4%;
+    .hero-content {
+        padding-left: 0;
     }
+    .default-btn.header-action-btn {
+        display: none;
+    }
+    .nav-bar {
+        left: -275px;
+    }
+    .nav-bar.show {
+        left: 0;
+    }
+    .main-content {
+        width: 100%;
+    }
+    header.fixed,
+    body.noscroll header.fixed {
+        max-width: 100%;
+    }
+    body.noscroll {
+        padding-right: 0;
+    }
+    .menu-btn {
+        display: block;
+    }
+    .default-btn.header-action-btn {
+        margin-right: 50px;
+    }
+    .home-wrapper .hero-img .shape::before {
+        font-size: 100vw;
+    }
+    .skills-wrapper .margin-on-md {
+        margin-bottom: 30px;
+    }
+    .hero-content .intro-name {
+        font-size: 40px;
+    }
+}
 
+/* Small devices (mobile, 575px and down) */
+@media (max-width: 575px) {
+    .hero-content .intro-name {
+        font-size: 32px;
+    }
+    .hero-content p span {
+        padding-left: 30px;
+    }
+    .hero-content p span::after {
+        height: 1px;
+        top: 14px;
+        width: 20px;
+    }
+    .wrapper {
+        padding: 65px 0;
+    }
+    .blog-title {
+        font-size: 20px;
+    }
+    .hero-content {
+        margin-top: 70px;
+    }
+    .clients-carousel .client-img::after {
+        font-size: 14px;
+    }
+    .hero-content p {
+        font-size: 18px;
+    }
+    .hero-content p::after {
+        top: 15px;
+    }
+    .service-item span {
+        margin-bottom: 20px;
+    }
+    .service-wrapper {
+        padding-bottom: 30px;
+    }
+    .service-item {
+        margin-bottom: 35px;
+    }
+    .home-wrapper {
+        padding: 80px 0;
+        padding-bottom: 60px;
+    }
+    .filter-buttons {
+        margin-bottom: 25px;
+    }
+    .filter-buttons button {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .skills-wrapper {
+        padding-bottom: 45px;
+    }
+    .education-wrapper {
+        padding-bottom: 20px;
+    }
+    .experience-wrapper {
+        padding-bottom: 34px;
+    }
+    .works-wrapper {
+        padding-bottom: 58px;
+    }
+    .blogs-wrapper {
+        padding-bottom: 28px;
+    }
+    .footer-social a {
+        padding: 0 4px;
+        font-size: 15px;
+    }
+}
 
+/* extraSmall devices ( 400px and down) */
+@media (max-width: 415px) {
+    .main-content .container-fluid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .scroll-to-top {
+        right: 20px;
+    }
+    .scroll-to-top.show {
+        bottom: 20px;
+    }
+    .clients-carousel .client-img::after {
+        font-size: 20px;
+    }
+}
+
+@media (max-height: 540px) {
+    .nav-footer {
+        position: static;
+        margin-bottom: 30px;
+    }
+    .scroll-indicator {
+        display: none;
+    }
 }
