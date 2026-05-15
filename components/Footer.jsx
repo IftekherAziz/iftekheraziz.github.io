@@ -2,7 +2,7 @@ export default function Footer() {
     return (
         <div className="mt-20">
             <div className="text-center">
-                <a href="https://prebuiltui.com?utm_source=eliana">
+                <a href="https://iftekheraziz.github.io/">
                     <img src="/assets/logo.jpg" alt="" className="w-36 mx-auto mb-2 dark:hidden" />
                     <img src="/assets/logo-dark.jpg" alt="" className="w-36 mx-auto mb-2 hidden dark:block" />
                 </a>
@@ -16,7 +16,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-3">
-                <p>© {new Date().getFullYear()} Template by prebuiltui</p>
+                <p className="text-sm">&copy; 2026. All rights reserved.</p>
                 <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
                     <li><a target='_blank' href="https://github.com/IftekherAziz">GitHub</a></li>
                     <li><a target='_blank' href="https://www.linkedin.com/in/iftekheraziz/">LinkedIn</a></li>
