@@ -7,10 +7,10 @@ export default function Work() {
             link: 'https://comodo24.com/en',
         },
         {
-            name: 'Geo based app',
-            icon: '/assets/work-2.png',
-            description: 'mobile app',
-            link: '',
+            name: 'Ecommerce site',
+            icon: '/assets/petmart.png',
+            description: 'Shopify store',
+            link: 'https://petmart.ug/',
         },
         {
             name: 'Photography site',
