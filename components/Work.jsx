@@ -13,16 +13,16 @@ export default function Work() {
             link: 'https://petmart.ug/',
         },
         {
-            name: 'Photography site',
-            icon: '/assets/work-3.png',
+            name: 'Book store',
+            icon: '/assets/libros787.png',
             description: 'Web Design',
-            link: '',
+            link: 'https://libros787.com/',
         },
         {
             name: 'UI/UX designing',
-            icon: '/assets/work-4.png',
-            description: 'UI/UX Design',
-            link: '',
+            icon: '/assets/babynaya.png',
+            description: 'Wordpress site',
+            link: 'https://babynaya.com/',
         }
     ];
     return (
